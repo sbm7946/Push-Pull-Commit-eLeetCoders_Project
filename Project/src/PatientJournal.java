@@ -1,4 +1,4 @@
-git public class PatientJournal {
+public class PatientJournal {
 
 
     
