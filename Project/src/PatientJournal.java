@@ -48,8 +48,9 @@ public class PatientJournal {
         if (log) {
             updateReport(beths_journal, "March 3rd", "17:24", false, "Was very active today");
             updateReport(beths_journal, "March 4th", "18:00", true, "Took a fall at 12pm. Medical team says to monitor closely");
+            updateReport(beths_journal, "March 5th", "09:00", true, "Woke up with a headache and nausea. Medical team says to monitor closely");
         }
 
-        getReport(2, beths_journal);
+        getReport(3, beths_journal);
     }
 }
