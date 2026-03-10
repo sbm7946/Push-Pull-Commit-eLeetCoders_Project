@@ -1,6 +1,4 @@
-import java.io.PrintStream;
 import java.util.ArrayList;
-import java.util.Objects;
 
 public class PatientJournal {
     final String name = "Beth";
@@ -49,6 +47,14 @@ public class PatientJournal {
             updateReport(beths_journal, "March 3rd", "17:24", false, "Was very active today");
             updateReport(beths_journal, "March 4th", "18:00", true, "Took a fall at 12pm. Medical team says to monitor closely");
             updateReport(beths_journal, "March 5th", "09:00", true, "Woke up with a headache and nausea. Medical team says to monitor closely");
+
+
+            /*
+                New Code Below
+            */
+            updateReport(beths_journal, "March 6th", "10:00", false, "Headache and nausea have subsided. Feeling much better today.");
+
+
         }
 
         getReport(3, beths_journal);
