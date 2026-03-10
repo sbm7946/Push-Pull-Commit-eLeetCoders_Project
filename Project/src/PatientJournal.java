@@ -58,5 +58,6 @@ public class PatientJournal {
         }
 
         getReport(3, beths_journal);
+        System.out.println("help");
     }
 }
