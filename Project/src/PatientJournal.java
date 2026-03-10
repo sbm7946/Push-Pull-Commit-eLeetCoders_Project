@@ -56,11 +56,7 @@ public class PatientJournal {
 
 
         }
-        System.out.println("Hi eleet Coders!!!");
-        System.out.println("This was written in VS Code");
-        System.out.println("tester!!!!");
-        System.out.println("tester!!!!");
-        System.out.println("bull s***");
+
         getReport(3, beths_journal);
     }
 }
