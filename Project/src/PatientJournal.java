@@ -56,7 +56,7 @@ public class PatientJournal {
 
 
         }
-
+        System.out.println("Hi eleet Coders!!!");
         getReport(3, beths_journal);
     }
 }
