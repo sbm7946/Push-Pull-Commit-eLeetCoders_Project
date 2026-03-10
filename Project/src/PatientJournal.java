@@ -52,15 +52,13 @@ public class PatientJournal {
             /*
                 New Code Below
             */
-            updateReport(beths_journal, "March 6th", "12:30", true, "Beth burst out the window saying she needed to come to a club called eleet coders?. We have dispatched law enforcement to find her.");
+            //updateReport(beths_journal, "March 6th", "12:30", true, "Beth burst out the window saying she needed to come to a club called eleet coders?. We have dispatched law enforcement to find her.");
 
 
         }
 
         getReport(3, beths_journal);
-        System.out.println("help");
-        System.out.println("hello world");
-        System.out.println("hello world");
+
         
     }
 }
